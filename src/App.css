@@ -1,0 +1,49 @@
+
+body {
+  background: rgb(47, 45, 45);
+  color: black;
+  font-family: 'Lucida Sans', Geneva, sans-serif;
+}
+
+.cal-display {
+   height: 55vh;
+   text-align: center;
+   margin-top: 10em;
+}
+
+button {
+  font-size: 1.5em; 
+  height: 2.5em;
+  width: 2.5em;
+  border-radius: 20px; 
+  background: whitesmoke;
+  color: black;
+  margin: 0.15rem;
+}
+
+#main {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+button:hover {
+  background: black;
+  color: white;
+}
+
+#mini-display, #display {
+  display: flex;
+  width: 20%;
+  margin-top: 5rem;
+  background: white;
+  font-style: bold;
+  color: black;
+  border-radius: 25px;
+  padding: 0.55rem;
+}
+
+
+
